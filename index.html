@@ -5,7 +5,7 @@
   <meta charset="utf-8">
   <meta content="width=device-width, initial-scale=1.0" name="viewport">
 
-  <title>TestML</title>
+  <title>MyRecommender</title>
   <meta content="" name="description">
   <meta content="" name="keywords">
 
@@ -16,64 +16,33 @@
   <!-- Google Fonts -->
   <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Raleway:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
 
-  <!-- Vendor CSS Files -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
   <link href="assets/vendor/aos/aos.css" rel="stylesheet">
   <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
   <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
   <link href="assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
   <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
   <link href="assets/vendor/remixicon/remixicon.css" rel="stylesheet">
+  
   <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
-
-  <!-- Template Main CSS File -->
   <link href="assets/css/style.css" rel="stylesheet">
-
-  <!-- =======================================================
-  * Template Name: Gp - v4.9.1
-  * Template URL: https://bootstrapmade.com/gp-free-multipurpose-html-bootstrap-template/
-  * Author: BootstrapMade.com
-  * License: https://bootstrapmade.com/license/
-  ======================================================== -->
-
 </head>
-
 <body>
 
-  <!-- ======= Header ======= -->
   <header id="header" class="fixed-top ">
     <div class="container d-flex align-items-center justify-content-lg-between">
-
-      <h1 class="logo me-auto me-lg-0"><a href="index.html"><span>My Recommender</span></a></h1>
-      <!-- Uncomment below if you prefer to use an image logo -->
+      <h1 class="logo me-auto me-lg-0"><a href="index.html"><span>MyRecommender</span></a></h1>
       <a href="index.html" class="logo me-auto me-lg-0"><img src="assets/img/logo.png" alt="" class="img-fluid"></a>
 
       <nav id="navbar" class="navbar order-last order-lg-0">
         <ul>
           <li><a class="nav-link scrollto active" href="#hero">Home</a></li>
-          <li><a class="nav-link scrollto" href="#about">About</a></li>
+          <li><a class="nav-link scrollto " href="#domain">Domain</a></li>
+          <li><a class="nav-link scrollto" href="#milestones">Milestones</a></li>
           <li><a class="nav-link scrollto" href="#documents">Documents</a></li>
           <li><a class="nav-link scrollto" href="#presentations">Presentations</a></li>
-          <li><a class="nav-link scrollto" href="#milestones">Milestones</a></li>
-          <li><a class="nav-link scrollto " href="#domain">Domain</a></li>
+          <li><a class="nav-link scrollto" href="#about">About</a></li>
           <li><a class="nav-link scrollto" href="#team">Team</a></li>
-
-          <!-- <li class="dropdown"><a href="#"><span>Drop Down</span> <i class="bi bi-chevron-down"></i></a>
-            <ul>
-              <li><a href="#">Drop Down 1</a></li>
-              <li class="dropdown"><a href="#"><span>Deep Drop Down</span> <i class="bi bi-chevron-right"></i></a>
-                <ul>
-                  <li><a href="#">Deep Drop Down 1</a></li>
-                  <li><a href="#">Deep Drop Down 2</a></li>
-                  <li><a href="#">Deep Drop Down 3</a></li>
-                  <li><a href="#">Deep Drop Down 4</a></li>
-                  <li><a href="#">Deep Drop Down 5</a></li>
-                </ul>
-              </li>
-              <li><a href="#">Drop Down 2</a></li>
-              <li><a href="#">Drop Down 3</a></li>
-              <li><a href="#">Drop Down 4</a></li>
-            </ul>
-          </li> -->
           <li><a class="nav-link scrollto" href="#contact">Contact</a></li>
         </ul>
         <i class="bi bi-list mobile-nav-toggle"></i>
@@ -84,29 +53,24 @@
     </div>
   </header><!-- End Header -->
 
-
- 
-
   <!-- ======= Hero Section ======= -->
   <section id="hero" class="d-flex align-items-center justify-content-center">
     <div class="container" data-aos="fade-up">
 
       <div class="row justify-content-center" data-aos="fade-up" data-aos-delay="150">
-        <div class="col-xl-6 col-lg-8">
-          <h1>My Recommender<span></span></h1>
-          <h2>Personalized Activity Recommendation based on Negative Emotions Classification among Middle-Class of Sri Lanka
-          </h2>
-          <br><br><U><h6><a href="#"><u>Demo link here</u></a></h6></U>
+        <div class="col-xl-6 col-lg-8 mt-5">
+          <h1>MyRecommender<span></span></h1>
+          <h2 style="line-height: 1.5;">Personalized Activity Recommendation based on Multi-modal Emotions Classification</h2>
         </div>
       </div>
 
-      <div class="row gy-4 mt-5 justify-content-center" data-aos="zoom-in" data-aos-delay="250">
+      <div class="row mt-5 justify-content-center mb-1" data-aos="zoom-in" data-aos-delay="250">
         <div class="col-xl-2 col-md-4">
           <div class="icon-box">
 
-            <img src="assets/img/security.png" height="30px" width="50px" class="img-fluid" alt="">
-
-            <h3><a href="">Text Analysis</a></h3>
+            <!-- <img src="assets/img/security.png" height="30px" width="50px" class="img-fluid" alt=""> -->
+            <i class="fa-regular fa-file-lines" style="font-size:48px !important"></i>
+            <h3><a href="">Text Classification</a></h3>
             <p class="small text-white-50 mb-4">
             </p>
           </div>
@@ -114,9 +78,10 @@
         <div class="col-xl-2 col-md-4">
           <div class="icon-box">
 
-            <img src="assets/img/deadline.png" height="30px" width="50px" class="img-fluid" alt="">
+            <!-- <img src="assets/img/deadline.png" height="30px" width="50px" class="img-fluid" alt=""> -->
+            <i class="fa-regular fa-image" style="font-size:48px !important"></i>
 
-            <h3><a href="">Visual Analysis</a></h3>
+            <h3><a href="">Image Classification</a></h3>
             <p class="small text-white-50 mb-4">
 
             </p>
@@ -125,28 +90,34 @@
         <div class="col-xl-2 col-md-4">
           <div class="icon-box">
 
-            <img src="assets/img/diagram.png" height="30px" width="50px" class="img-fluid" alt="">
-
-            <h3><a href="">Audio Analysis
+            <!-- <img src="assets/img/diagram.png" height="30px" width="50px" class="img-fluid" alt=""> -->
+            <i class="fa-solid fa-microphone" style="font-size:48px !important"></i>
+            <h3><a href="">Audio Classification
               </a></h3>
             <p class="small text-white-50 mb-4">
 
             </p>
           </div>
         </div>
-        <div class="col-xl-3 col-md-4">
+        <div class="col-xl-2 col-md-4">
           <div class="icon-box">
 
-            <img src="assets/img/time-management.png" height="30px" width="50px" class="img-fluid" alt="">
-
+            <!-- <img src="assets/img/time-management.png" height="30px" width="50px" class="img-fluid" alt=""> -->
+            <i class="fa-solid fa-person-walking" style="font-size:55px !important"></i>
             <h3><a href="">Activity Recommendation</a></h3>
             <p class="small text-white-50 mb-4"></p>
           </div>
         </div>
         
       </div>
+      <div class="cta mt-1" style="background:none">
+        <a class='cta-btn-color mt-1 fw-bold', style="color:white;font-size: 20px" href="localhost:5000/">
+          Live Demo
+        </a>
+      </div>
 
     </div>
+    
   </section><!-- End Hero -->
 
   <main id="main">
@@ -157,7 +128,7 @@
 
         <div class="row">
           <div class="col-lg-6 order-1 order-lg-2" data-aos="fade-left" data-aos-delay="100">
-            <img src="assets/img/sec2.jpeg" class="img-fluid" alt="">
+            <img src="assets/img/stresspng.png" class="img-fluid" alt="">
           </div>
           <div class="col-lg-6 pt-4 pt-lg-0 order-2 order-lg-1 content" data-aos="fade-right" data-aos-delay="100">
             <!-- <h3>Voluptatem dignissimos provident quasi corporis voluptates sit assumenda.</h3>
@@ -171,7 +142,7 @@
               <li><i class="ri-check-double-line"></i> Ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate trideta storacalaperda mastiro dolore eu fugiat nulla pariatur.</li>
             </ul> -->
             <p>
-              Machine learning has become integral in powering various aspects of our modern technological landscape. However, the rise of sophisticated adversaries poses a significant threat to the integrity of these models. Adversarial attacks, carefully crafted perturbations that can deceive machine learning systems, can compromise the reliability and trustworthiness of these models, leading to potentially catastrophic consequences. To safeguard the robustness and security of machine learning models, our testing tool serves as a crucial defense mechanism, meticulously assessing the resilience of these models against a spectrum of adversarial attacks. By providing comprehensive and dynamic testing capabilities, we empower organizations to fortify their AI systems, ensuring their effectiveness and trustworthiness in the face of evolving threats, thereby fostering a secure and resilient AI ecosystem for the future.   
+              The solution presented attempts to address the crucial problem of identifying and alleviating negative emotions among Sri Lanka's middle-class population. Our novel method makes use of machine learning and unsupervised learning techniques. Composed of four parts, the first three are text, audio, or video classification to analyze a person's emotional state. The fourth component is a recommendation system offering personalized recommendations to help users alleviate themselves from the negative emotion faced. The middle-class population in Sri Lanka is increasingly concerned about the impact the country's economic crisis and difficult living conditions may have on their physical and mental health as they work to support their families daily. Understanding how urgent it is to solve this urgent problem; our approach provides useful techniques to reduce and lessen these emotional loads as well as early identification of negative emotions making it easier to alleviate their mental state. A happier and more productive group of people is what this all-encompassing approach promises to bring about. Our system's scalability and adaptability to different situations also enable customers to adapt it to suit their own requirements and preferences.  
             </p>
           </div>
         </div>
@@ -196,7 +167,7 @@
             <div class="swiper-slide"><img src="assets/img/anaconda.png" class="img-fluid" alt=""></div>
             <div class="swiper-slide"><img src="assets/img/keras.png" class="img-fluid" alt=""></div>
           </div>
-          <div class="swiper-pagination"></div>
+          <div class="swiper-pagination mt-5"></div>
         </div>
 
       </div>
@@ -204,218 +175,36 @@
 
     <!-- ======= Features Section ======= -->
     <section id="features" class="features">
-      <div class="container" data-aos="fade-up">
-
-        <div class="row">
-          <div class="image col-lg-6" style='background-image: url("assets/img/bg1.jpg");' data-aos="fade-right"></div>
-          <div class="col-lg-6" data-aos="fade-left" data-aos-delay="100">
-            <div class="icon-box mt-5 mt-lg-0" data-aos="zoom-in" data-aos-delay="150">
-              <i class="bx bx-receipt"></i>
-              <h4>Test Resilience Against Adversarial Attack</h4>
-              <p>Aims to provide a platform that enables developers to test their models against adversarial attacks.
+      <div class="container" data-aos="fade-up" style="overflow:visible">
+        <div class="row" style="overflow:visible">
+          <div class=" image col-lg-8" style='background-image: url("assets/img/system_overview.png");' data-aos="fade-right"></div>
+          <div class="col-lg-4" data-aos="fade-left" data-aos-delay="50">
+            <div class="icon-box mt-5 mt-lg-0" data-aos="zoom-in" data-aos-delay="100">
+              <i class="bx bx-chat"></i>
+              <h4>Text-based Emotion Classification</h4>
+              <p>Aims to enhance the performance of emotion classification leveraging a novel data augmentation technique specialized for classification tasks. 
               </p>
             </div>
             <div class="icon-box mt-5" data-aos="zoom-in" data-aos-delay="150">
-              <i class="bx bx-cube-alt"></i>
-              <h4>Tested Defenses</h4>
-              <p>Suggests defences that have been tested against the attacks to help secure machine learning models 
+              <!-- <i class="bx bx-cube-alt"></i> -->
+              <i class="fa-solid fa-ear-listen"></i>
+              <h4>Audio-based Emotion Classification</h4>
+              <p>Enhances emotion classification accuracy through advanced preprocessing and data augmentation, focusing on extracting robust spectral and temporal features from audio signals. 
               </p>
             </div>
             <div class="icon-box mt-5" data-aos="zoom-in" data-aos-delay="150">
-              <i class="bx bx-images"></i>
-              <h4>Simple and Efficient</h4>
-              <p>Simple and user friendly interface making it easy for users to test their models efficiently.</p>
+              <!-- <i class="bx bx-images"></i> -->
+              <i class="fa-solid fa-eye"></i>
+              <h4>Image-based Emotion Classification</h4>
+              <p>Enhances emotion detection by using a CNN model with attention mechanisms to improve generalization in challenging visual conditions.</p>
             </div>
        
           </div>
         </div>
 
       </div>
-    </section><!-- End Features Section -->
-
-    
-    <!-- ======= Document Section ======= -->
-    <section id="documents" class="services">
-      <div class="container" data-aos="fade-up">
-
-        <div class="section-title">
-          <h2>Documents</h2>
-          <p>Project Documents</p>
-        </div>
-
-        <div class="row">
-          <div class="col-lg-4 col-md-6 d-flex align-items-stretch" data-aos="zoom-in" data-aos-delay="100">
-            <div class="icon-box">
-              <div class="icon"><img src="assets/img/objective.png" class="img-fluid" alt=""></i></div>
-              <h4>Project Charter</h4>
-              <p>The document gives the information regarding the statement of scope, objectives overview, an outline of scope, an approximate schedule and people who are participating in a project</p>
-              <br>
-              <a href="https://drive.google.com/file/d/1ugNuxJPYkkBiZtD_gHEBffoiTIT5PkTv/view?usp=drive_link" download>
-              <button type="button" class="btn btn-outline-primary btn-sm btn-block bi bi-file-earmark-arrow-down-fill"> Download
-
-              </button>
-              </a>              
-            </div>
-          </div>
-
-          <div class="col-lg-4 col-md-6 d-flex align-items-stretch" data-aos="zoom-in" data-aos-delay="200">
-            <div class="icon-box">
-              <div class="icon"><img src="assets/img/idea.png" class="img-fluid" alt=""></i></div>
-              <h4>Project Proposal</h4>
-              <p>The document contains details like goals, objectives, important dates, milestones and requirements needed to start and complete the project.</p>
-              <br>
-              <a href="https://drive.google.com/file/d/169UFV87gPWsT__FaUsh-VL79l-yU0tkl/view?usp=drive_link" download>
-              <button type="button" class="btn btn-outline-primary btn-sm btn-block bi bi-file-earmark-arrow-down-fill"> Download
-
-              </button>
-              </a>              
-            </div>
-          </div>
-
-          
-
-          <div class="col-lg-4 col-md-6 d-flex align-items-stretch" data-aos="zoom-in" data-aos-delay="300">
-            <div class="icon-box">
-              <div class="icon"><img src="assets/img/researchPaper.png" class="img-fluid" alt=""></i></div>
-              <h4>Research Paper</h4>
-              <p>A research paper contains writing that provides Literature review, Research methodology, analysis, interpretation, and argument based on in-depth independent research</p>
-              <br>
-              <a href="https://drive.google.com/file/d/1dWRtz9fDRufPDtbIhRSyHvQt7tdu6LD9/view?usp=drive_link" download>
-              <button type="button" class="btn btn-outline-primary btn-sm btn-block bi bi-file-earmark-arrow-down-fill"> Download
-
-              </button>
-              </a>              
-            </div>
-          </div>
-        </div>
-        <br>
-        <div class="row">
-          <div class="col-lg-4 col-md-6 d-flex align-items-stretch" data-aos="zoom-in" data-aos-delay="400">
-            <div class="icon-box">
-              <div class="icon"><img src="assets/img/thesis.png" class="img-fluid" alt=""></i></div>
-              <h4>Final Thesis</h4>
-              <p>The document contains the Proposed solution to the research question, which was finalized after completing the research</p>
-              <br>
-              <a href="https://drive.google.com/file/d/17Md00Zu0PbSq63_KKueVsAxxcsA7Gftd/view?usp=drive_link" download>
-              <button type="button" class="btn btn-outline-primary btn-sm btn-block bi bi-file-earmark-arrow-down-fill"> Download
-
-              </button>
-              </a>              
-            </div>
-          </div>
-
-          <div class="col-lg-4 col-md-6 d-flex align-items-stretch" data-aos="zoom-in" data-aos-delay="100">
-            <div class="icon-box">
-              <div class="icon"><img src="assets/img/clipboard.png" class="img-fluid" alt=""></i></div>
-              <h4>Status Document</h4>
-              <p>The document describes the progress of the project within the specific time period and compares it against the project plan checklist</p>
-              <br>
-              <a href="https://drive.google.com/file/d/1B-Pb_5_ydHQ58XOPlVovriyCEuoxxb-_/view?usp=drive_link" download>
-              <button type="button" class="btn btn-outline-primary btn-sm btn-block bi bi-file-earmark-arrow-down-fill"> Download
-
-              </button>
-              </a>              
-            </div>
-          </div>
-
-          <div class="col-lg-4 col-md-6 d-flex align-items-stretch" data-aos="zoom-in" data-aos-delay="100">
-            <div class="icon-box">
-              <div class="icon"><img src="assets/img/diary.png" class="img-fluid" alt=""></i></div>
-              <h4>Research logbook</h4>
-              <p>The document describes the progress of the project within the specific time period and compares it against the project plan checklist</p>
-              <br>
-              <a href="https://drive.google.com/file/d/16aGKQYUlOgA8ZuGy8Zo8uxIYGcVSXesT/view?usp=share_link" download>
-              <button type="button" class="btn btn-outline-primary btn-sm btn-block bi bi-file-earmark-arrow-down-fill"> Download
-
-              </button>
-              </a>              
-            </div>
-          </div>
-
-        
-
-        </div>
-
-      </div>
-    </section><!-- End Document Section -->
-
-
-    <!-- ======= Presentation Section ======= -->
-    <section id="presentations" class="services">
-      <div class="container" data-aos="fade-up">
-
-        <div class="section-title">
-          <h2>Presentations</h2>
-          <p>Project Presentations</p>
-        </div>
-
-        <div class="row">
-          <div class="col" data-aos="zoom-in" data-aos-delay="100">
-            <div class="icon-box">
-              <div class="icon"><img src="assets/img/innovation.png" class="img-fluid" alt=""></i></div>
-              <h4>Proposal presentation</h4>
-              <p>Initial Presentation with Overview of Research Problem</p>
-              <br>
-              <a href="https://docs.google.com/presentation/d/1mDOWBSzUb9d6shL1m85Am9fRazraYxJx/edit?usp=drive_link&ouid=104150977066758876006&rtpof=true&sd=true" download>
-              <button type="button" class="btn btn-outline-primary btn-sm btn-block bi bi-file-earmark-arrow-down-fill"> Download
-
-              </button>
-              </a>              
-            </div>
-          </div>
-
-          <div class="col" data-aos="zoom-in" data-aos-delay="200">
-            <div class="icon-box">
-              <div class="icon"><img src="assets/img/PP1.png" class="img-fluid" alt=""></i></div>
-              <h4>Progress presentation-1</h4>
-              <p>50% Project Completion</p>
-              <br>
-              <a href="https://docs.google.com/presentation/d/144vjZCVCw3puKUcVcp76vG5c1HWedKXH/edit?usp=drive_link&ouid=104150977066758876006&rtpof=true&sd=true" download>
-              <button type="button" class="btn btn-outline-primary btn-sm btn-block bi bi-file-earmark-arrow-down-fill"> Download
-
-              </button>
-              </a>              
-            </div>
-          </div>
-
-          
-
-          <div class="col" data-aos="zoom-in" data-aos-delay="300">
-            <div class="icon-box">
-              <div class="icon"><img src="assets/img/PP2.png" class="img-fluid" alt=""></i></div>
-              <h4>Progress presentation-2</h4>
-              <p>90% Project Completion</p>
-              <br>
-              <a href="https://docs.google.com/presentation/d/1YNeohlkUuzJv8KHhUltzvVZs8SRPfiXv/edit?usp=drive_link&ouid=104150977066758876006&rtpof=true&sd=true" download>
-              <button type="button" class="btn btn-outline-primary btn-sm btn-block bi bi-file-earmark-arrow-down-fill"> Download
-
-              </button>
-              </a>              
-            </div>
-          </div>
-
-          <div class="col" data-aos="zoom-in" data-aos-delay="400">
-            <div class="icon-box">
-              <div class="icon"><img src="assets/img/goal.png" class="img-fluid" alt=""></i></div>
-              <h4>Final presentation</h4>
-              <p>100% Completion with deployed Solution</p>
-              <br>
-              <a href="https://docs.google.com/presentation/d/1z0EaAPYqsQnM6hzuXNy5Qeg0h6SK0Zvt/edit?usp=drive_link&ouid=104150977066758876006&rtpof=true&sd=true" download>
-              <button type="button" class="btn btn-outline-primary btn-sm btn-block bi bi-file-earmark-arrow-down-fill"> Download
-
-              </button>
-              </a>              
-            </div>
-          </div>
-
-
-        </div>
-        <br>
-       
-
-      </div>
-    </section><!-- End Presentation Section -->
-
+    </section>
+    <!-- End Features Section -->
 
     <!-- ======= Start MileStone Section ======= -->
 <!-- Section: Timeline -->
@@ -432,48 +221,44 @@
         <div class="timeline-4 left-4">
           <div class="card gradient-custom">
             <div class="card-body p-4">
-              <i class="fas fa-brain fa-2x mb-3"></i>
+              <!-- <i class="fas fa-brain fa-2x mb-3"></i> -->
               <h4>Project Proposal</h4>
-              <p class="small text-white-50 mb-4">Date Completion - 30th March 2023</p>
-              <p>Mark Allocation -  12%</p>
+              <p class="small text-white-50 mb-4">Date Completion - 21st February 2024</p>
               <h6 class="badge bg-light text-black mb-0">Group</h6>
-              <h6 class="badge bg-light text-black mb-0">Induvidual</h6>
+              <h6 class="badge bg-light text-black mb-0">Individual</h6>
             </div>
           </div>
         </div>
         <div class="timeline-4 right-4">
           <div class="card gradient-custom-4">
             <div class="card-body p-4">
-              <i class="fas fa-camera fa-2x mb-3"></i>
+              <!-- <i class="fas fa-camera fa-2x mb-3"></i> -->
               <h4>Progress Presentation – 1</h4>
-              <p class="small text-white-50 mb-4">Date Completion - 25th May 2023</p>
-              <p>Mark Allocation -  15%</p>
+              <p class="small text-white-50 mb-4">Date Completion - 8th May 2024</p>
               <h6 class="badge bg-light text-black mb-0">Group</h6>
-              <h6 class="badge bg-light text-black mb-0">Induvidual</h6>
+              <h6 class="badge bg-light text-black mb-0">Individual</h6>
             </div>
           </div>
         </div>
         <div class="timeline-4 left-4">
           <div class="card gradient-custom">
             <div class="card-body p-4">
-              <i class="fas fa-brain fa-2x mb-3"></i>
+              <!-- <i class="fas fa-brain fa-2x mb-3"></i> -->
               <h4>Progress Presentation 2</h4>
-              <p class="small text-white-50 mb-4">Date Completion - 5th September 2023</p>
-              <p>Mark Allocation -  12%</p>
+              <p class="small text-white-50 mb-4">Date Completion - 11th September 2024</p>
               <h6 class="badge bg-light text-black mb-0">Group</h6>
-              <h6 class="badge bg-light text-black mb-0">Induvidual</h6>
+              <h6 class="badge bg-light text-black mb-0">Individual</h6>
             </div>
           </div>
         </div>
         <div class="timeline-4 right-4">
           <div class="card gradient-custom-4">
             <div class="card-body p-4">
-              <i class="fas fa-camera fa-2x mb-3"></i>
+              <!-- <i class="fas fa-camera fa-2x mb-3"></i> -->
               <h4>Final Report</h4>
-              <p class="small text-white-50 mb-4">Date Completion - 10th September 2023</p>
-              <p>Mark Allocation -  19%</p>
+              <p class="small text-white-50 mb-4">Pending</p>
               <h6 class="badge bg-light text-black mb-0">Group</h6>
-              <h6 class="badge bg-light text-black mb-0">Induvidual</h6>
+              <h6 class="badge bg-light text-black mb-0">Individual</h6>
             </div>
           </div>
         </div>
@@ -481,12 +266,11 @@
         <div class="timeline-4 left-4">
           <div class="card gradient-custom">
             <div class="card-body p-4">
-              <i class="fas fa-palette fa-2x mb-3"></i>
+              <!-- <i class="fas fa-palette fa-2x mb-3"></i> -->
               <h4>Final Presentation & Viva</h4>
-              <p class="small text-white-50 mb-4">Date Completion - 14th November 2022</p>
-              <p>Mark Allocation -  20%</p>
+              <p class="small text-white-50 mb-4">Pending</p>
               <h6 class="badge bg-light text-black mb-0">Group</h6>
-              <h6 class="badge bg-light text-black mb-0">Induvidual</h6>
+              <h6 class="badge bg-light text-black mb-0">Individual</h6>
             </div>
           </div>
         </div>
@@ -532,6 +316,191 @@
 <!-- Section: Timeline -->
 
     <!-- ======= End MileStone Section ======= -->
+
+
+    <!-- ======= Document Section ======= -->
+    <section id="documents" class="services">
+      <div class="container" data-aos="fade-up">
+
+        <div class="section-title">
+          <h2>Documents</h2>
+          <p>Project Documents</p>
+        </div>
+
+        <div class="row">
+          <div class="col-lg-4 col-md-6 d-flex align-items-stretch" data-aos="zoom-in" data-aos-delay="100">
+            <div class="icon-box">
+              <div class="icon"><img src="assets/img/objective.png" class="img-fluid" alt=""></i></div>
+              <h4>Topic Evaluation
+              </h4>
+              <p>The document gives the information regarding the statement of scope, objectives overview, an outline of scope, an approximate schedule and people who are participating in a project</p>
+              <br>
+              <a href="https://drive.google.com/drive/folders/1QI8eP22Mt-CtJwiy13cSM3ZpaZB5wk3f?usp=drive_link" download>
+              <button type="button" class="btn btn-outline-primary btn-sm btn-block bi bi-file-earmark-arrow-down-fill"> Download
+
+              </button>
+              </a>              
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 d-flex align-items-stretch" data-aos="zoom-in" data-aos-delay="200">
+            <div class="icon-box">
+              <div class="icon"><img src="assets/img/idea.png" class="img-fluid" alt=""></i></div>
+              <h4>Project Proposal</h4>
+              <p>The document contains details like goals, objectives, important dates, milestones and requirements needed to start and complete the project.</p>
+              <br>
+              <a href="https://drive.google.com/drive/folders/1tY791osvEy8MgRgJmsBYK5sFXie9vqEl?usp=drive_link" download>
+              <button type="button" class="btn btn-outline-primary btn-sm btn-block bi bi-file-earmark-arrow-down-fill"> Download
+
+              </button>
+              </a>              
+            </div>
+          </div>
+
+          
+
+          <div class="col-lg-4 col-md-6 d-flex align-items-stretch" data-aos="zoom-in" data-aos-delay="300">
+            <div class="icon-box">
+              <div class="icon"><img src="assets/img/researchPaper.png" class="img-fluid" alt=""></i></div>
+              <h4>Research Paper</h4>
+              <p>A research paper contains writing that provides Literature review, Research methodology, analysis, interpretation, and argument based on in-depth independent research</p>
+              <br>
+              <a href="https://drive.google.com/file/d/13q7mFyqXTAI30QJA-kUJ8881YKkBHZsJ/view?usp=drive_link" download>
+              <button type="button" class="btn btn-outline-primary btn-sm btn-block bi bi-file-earmark-arrow-down-fill"> Download
+
+              </button>
+              </a>              
+            </div>
+          </div>
+        </div>
+        <br>
+        <div class="row">
+          <div class="col-lg-4 col-md-6 d-flex align-items-stretch" data-aos="zoom-in" data-aos-delay="400">
+            <div class="icon-box">
+              <div class="icon"><img src="assets/img/thesis.png" class="img-fluid" alt=""></i></div>
+              <h4>Final Thesis</h4>
+              <p>The document contains the Proposed solution to the research question, which was finalized after completing the research</p>
+              <br>
+              <a href="https://drive.google.com/drive/folders/1zCDGsOjNf5zici5KFK5tao2IzYyMp5K2?usp=drive_link" download>
+              <button type="button" class="btn btn-outline-primary btn-sm btn-block bi bi-file-earmark-arrow-down-fill"> Download
+
+              </button>
+              </a>              
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 d-flex align-items-stretch" data-aos="zoom-in" data-aos-delay="100">
+            <div class="icon-box">
+              <div class="icon"><img src="assets/img/clipboard.png" class="img-fluid" alt=""></i></div>
+              <h4>Status Document</h4>
+              <p>The document describes the progress of the project within the specific time period and compares it against the project plan checklist</p>
+              <br>
+              <a href="https://drive.google.com/drive/folders/1U_B_eDlY7mfvEYb3n9Nl1fA9tcnhqSiJ?usp=drive_link" download>
+              <button type="button" class="btn btn-outline-primary btn-sm btn-block bi bi-file-earmark-arrow-down-fill"> Download
+
+              </button>
+              </a>              
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 d-flex align-items-stretch" data-aos="zoom-in" data-aos-delay="100">
+            <div class="icon-box">
+              <div class="icon"><img src="assets/img/diary.png" class="img-fluid" alt=""></i></div>
+              <h4>Research logbook</h4>
+              <p>The document describes the progress of the project within the specific time period and compares it against the project plan checklist</p>
+              <br>
+              <a href="https://drive.google.com/drive/folders/1JnfXCBjO5nQZP8nMcHM8QaoFrdfIAII0?usp=drive_link" download>
+              <button type="button" class="btn btn-outline-primary btn-sm btn-block bi bi-file-earmark-arrow-down-fill"> Download
+
+              </button>
+              </a>              
+            </div>
+          </div>
+
+        
+
+        </div>
+
+      </div>
+    </section><!-- End Document Section -->
+
+
+    <!-- ======= Presentation Section ======= -->
+    <section id="presentations" class="services">
+      <div class="container" data-aos="fade-up">
+
+        <div class="section-title">
+          <h2>Presentations</h2>
+          <p>Project Presentations</p>
+        </div>
+
+        <div class="row">
+          <div class="col" data-aos="zoom-in" data-aos-delay="100">
+            <div class="icon-box">
+              <div class="icon"><img src="assets/img/innovation.png" class="img-fluid" alt=""></i></div>
+              <h4>Proposal presentation</h4>
+              <p>Initial Presentation with Overview of Research Problem</p>
+              <br>
+              <a href="https://docs.google.com/presentation/d/1imcuRDiAkh9sP9OGZt9lEScqYJc5kWvT/edit?usp=drive_link&ouid=112086684521798842022&rtpof=true&sd=true" download>
+              <button type="button" class="btn btn-outline-primary btn-sm btn-block bi bi-file-earmark-arrow-down-fill"> Download
+
+              </button>
+              </a>              
+            </div>
+          </div>
+
+          <div class="col" data-aos="zoom-in" data-aos-delay="200">
+            <div class="icon-box">
+              <div class="icon"><img src="assets/img/PP1.png" class="img-fluid" alt=""></i></div>
+              <h4>Progress presentation-1</h4>
+              <p>50% Project Completion</p>
+              <br>
+              <a href="https://docs.google.com/presentation/d/1EDLQL4OQpHdvTf2NCaepGZqcBAYLMWu-/edit?usp=drive_link&ouid=112086684521798842022&rtpof=true&sd=true" download>
+              <button type="button" class="btn btn-outline-primary btn-sm btn-block bi bi-file-earmark-arrow-down-fill"> Download
+
+              </button>
+              </a>              
+            </div>
+          </div>
+
+          
+
+          <div class="col" data-aos="zoom-in" data-aos-delay="300">
+            <div class="icon-box">
+              <div class="icon"><img src="assets/img/PP2.png" class="img-fluid" alt=""></i></div>
+              <h4>Progress presentation-2</h4>
+              <p>90% Project Completion</p>
+              <br>
+              <a href="https://docs.google.com/presentation/d/1wu4qEGAMRBNDg6kST68iziRVjwHHb8TL/edit?usp=drive_link&ouid=112086684521798842022&rtpof=true&sd=true" download>
+              <button type="button" class="btn btn-outline-primary btn-sm btn-block bi bi-file-earmark-arrow-down-fill"> Download
+
+              </button>
+              </a>              
+            </div>
+          </div>
+
+          <div class="col" data-aos="zoom-in" data-aos-delay="400">
+            <div class="icon-box">
+              <div class="icon"><img src="assets/img/goal.png" class="img-fluid" alt=""></i></div>
+              <h4>Final presentation</h4>
+              <p>100% Completion with deployed Solution</p>
+              <br>
+              <a href="https://docs.google.com/presentation/d/1G7kuiOBKJgb1IvE_bnonMOZ5tCoiDwi9/edit?usp=drive_link&ouid=112086684521798842022&rtpof=true&sd=true" download>
+              <button type="button" class="btn btn-outline-primary btn-sm btn-block bi bi-file-earmark-arrow-down-fill"> Download
+
+              </button>
+              </a>              
+            </div>
+          </div>
+
+
+        </div>
+        <br>
+       
+
+      </div>
+    </section><!-- End Presentation Section -->
+
 
 
     <!-- ======= Cta Section ======= -->
@@ -585,12 +554,27 @@
                     <br>
                     <!-- <p class="card-text">With supporting text below as a natural lead-in to additional content.</p> -->
                     <p>
+                      In text classification, data augmentation is vital in Natural Language Processing (NLP), especially for low-resource languages with scarce annotated datasets. Techniques like Easy Data Augmentation (EDA) enhance data diversity but can compromise semantic integrity due to a lack of context awareness. Paraphrasing methods, such as back-translation, generate diverse structures but rely on high-quality translation models, which can be resource-intensive and impractical for low-resource languages. A more sophisticated approach is the use of Large Language Models (LLMs) and Generative Adversarial Networks (GANs) to generate new data points. While it provides powerful solutions for generating coherent data, they require significant computational resources.
 
-Studies in the field of machine learning attacks have primarily focused on various types of attacks, including evasion attacks, backdoor attacks, and model theft. Evasion attacks involve introducing perturbations to input data during test time, causing models to misclassify and fail. These attacks can be categorized into black box and white box attacks, with research extending to specific applications such as biometric authentication and malware detection systems. Defense mechanisms against evasion attacks include adversarial training and input data regularization. In response to the vulnerabilities of deep neural networks, researchers have proposed various techniques such as first-order techniques within the saddle point formulation and the use of the Projected Gradient Descent (PGD) algorithm for generating strong adversarial attacks
-<br> <br>
-The study of machine learning attacks has investigated a range of techniques, including the Projected Gradient Descent (PGD) algorithm, which systematically manipulates input data to produce strong adversarial attacks, revealing the fragility of deep learning systems. The Boundary Attack, on the other hand, moves through the space between adversarial and non-adversarial examples, reducing the difference between the two through iterative rejection sampling. Furthermore, the Carlini and Wagner attack has been used across different domains, utilizing various distance metrics such as L0, L2, and L∞ to generate potent adversarial examples. These attacks underscore the pressing need for robust defense mechanisms, prompting researchers to explore strategies such as adversarial training, regularization of input data, and the development of novel paradigms like the Boundary-Optimized Shotz-Bosh (BOSH) algorithm. Additionally, the integration of counterfactual explanations and the use of auto-encoders with noise injection have emerged as promising methods to fortify machine learning models against adversarial attacks.
-<br><br>
-Furthermore, studies have introduced novel concepts like the "Adversarial Mask," which utilizes gradient-based optimization to create imperceptible adversarial masks capable of fooling facial recognition systems. The Carlini and Wagner attack, employing various distance metrics, has been utilized for attacking neural network models in both image and audio domains, highlighting the need for robust defense mechanisms. Additionally, the development of techniques like Boundary Attack and the Boundary-Optimized Shotz-Bosh (BOSH) algorithm has contributed to the advancement of Decision-Based Attacks (DBAs). Furthermore, research has explored defense strategies such as counterfactual explanations and the use of auto-encoders with noise injection to enhance model resilience against adversarial attacks.
+                      <br><br>
+                      
+                      Despite advancements, challenges remain; EDA can introduce noise, back-translation depends on robust translation tools, and LLMs may struggle with linguistic intricacies. Additionally, token importance extraction methods, though promising, are under-explored in data augmentation contexts. This paper proposes utilizing SHAP values to swap tokens, combining targeted augmentation with efficiency for low-resource scenarios. This novel approach aims to enhance text classification tasks, improving model performance and generalization in challenging linguistic contexts while addressing the limitations of existing methods.
+                      
+                      <br><br>
+                      
+                      Regarding image classification, studies have used CNNs to enhance facial emotion detection through various methods. A study by A. Pandey and A. Gupta achieved 78.1% accuracy using CNNs with edge detection and image normalization, focusing on dataset size and feature extraction. M. S. D. Perera et al. introduced attention mechanisms for spatial data, analyzing Vision Transformers (ViTs) and achieving 80.12% accuracy, emphasizing their novelty in image work. Additionally, C. Liang and J. Dong incorporated Local Binary Patterns (LBP) into CNNs within the Convolutional Block Attention Module, reaching 71.29% accuracy by concentrating on salient facial regions for better generalization. This work advances the improvement of CNNs by employing hierarchical attention mechanisms, residual blocks, and SHAP explanations. Our approach emphasizes model interpretability, providing clear and transparent predictions, unlike the methods reviewed. This integrated strategy not only enhances accuracy but also ensures balanced performance across various emotional categories, making our model robust and applicable in real-world scenarios.
+                      
+                      <br><br>
+                      
+                      Regarding audio classification, speech and audio-based emotion recognition has advanced through audio features, data augmentation, and deep learning models. Mel Frequency Cepstral Coefficients’ (MFCCs), which capture the timbral characteristics of speech, have been widely used. Studies show that combining multiple features, such as spectral centroid and spectral contrast, provides a more comprehensive representation of emotional speech. Our work introduces a hybrid CNN-LSTM model, combining the spatial feature extraction capabilities of Convolutional Neural Networks (CNNs) with the sequential learning strengths of Long Short-Term Memory (LSTM) networks. This hybrid architecture effectively captures both the phonetic content and temporal dynamics of speech, leading to better emotion recognition performance. The combination of multi-feature extraction, augmentation, and hybrid model results in more accurate and robust emotion classification using speech from audio-based data.
+                      
+                      <br><br>
+                      
+                      P. J Jayaraj and colleagues in the cited research describe an application that uses brain wave analysis to identify stress levels and helps reduce stress by including audio waves, such as music. First, the application analyzes the user's brain waves to detect tension. Then, binaural beats and solfeggio frequency help reduce the level of stress that has been detected. Although the application technique works, its usefulness for relieving stress is limited to music and audio waves, which somewhat restricts its functionality in this regard. In contrast, our study adopts a multifaceted approach, identifying emotions through facial dynamics, audio frequency interactions, and text classification. These predictions are combined and fed into an activity suggestion system utilizing reinforcement learning, offering users personalized recommendations for stress-relieving activities.
+                      
+                      <br><br>
+                      
+                      With regards to the recommendation system, Kalansooriya et al. developed a social media application, "xīnlĭ," aimed at improving mental health through a machine learning-based multimodal architecture that recognizes seven basic emotions. Their system uses LSTM and CNN algorithms to analyze user video logs and suggests activities via a Q-learning recommendation engine, requiring users to submit videos regularly. Our recommendation system (RS) enhances their approach by employing Deep Reinforcement Learning (DRL) techniques for improved scalability, utilizing a Deep Q-Network (DQN) to approximate the action-value function. This approach also focuses on creating an optimal reward policy, addressing an open research area where existing RL algorithms fall short. Our hybrid model integrates Online Learning (OL) through the Online Passive-Aggressive Algorithm (OPA) with the DQN, enabling real-time data manipulation and facilitating high scalability. This approach aligns with findings from C. Dang et al., which suggest that combining multiple machine learning techniques yields better accuracy, and we aim to harness the strengths of various models for a more effective system.
                     </p>
                     <!-- <a href="#" class="btn btn-primary">Go somewhere</a> -->
                   </div>
@@ -609,42 +593,33 @@ Furthermore, studies have introduced novel concepts like the "Adversarial Mask,"
                     <br>
                     <!-- <p class="card-text">With supporting text below as a natural lead-in to additional content.</p> -->
 
-                    <p>
- The research unfolds in several stages. Initially, a churn prediction model is 
-constructed utilizing a telecom churn dataset. To address data imbalance and prevent 
-overfitting, SMOTE and random under-sampling techniques are employed. The 
-development of this churn prediction model is carried out using a Convolutional 
-Neural Network.
+                    <p><strong>Text-Based Emotion Classification</strong></p>
+<ul>
+    <li>Introduced <em>Saliency-based Token Swapping (SSwap)</em>, a data augmentation technique using SHAP values to determine token importance for enhancing text classification.</li>
+    <li>SSwap identifies key tokens and swaps them based on sentence label similarity, balancing semantic integrity and data diversity.</li>
+    <li>Tested on <em>GoEmotions</em> (English) and a <em>Sinhala dataset</em> to validate effectiveness in low-resource languages, demonstrating improved performance compared to standard techniques like Easy Data Augmentation and Back-Translation.</li>
+</ul>
 
-                      <br><br>
-                      Following that, three distinct attack strategies are devised: 
-<ol>
-<li>Projected Gradient Descent</li>
-<li>Boundary Attack</li>
-<li>Carlini and Wagner.</li>
-</ol>
-                      <br><br>
-                      These are three attacks belonging to the category of Evasion. These 
-attacks are leveraged to create adversarial examples that introduce distortions, 
-subsequently causing misclassification by the model. These attacks are applied 
-during the training phase of the machine learning model lifecycle. The research 
-closely monitors the changes in model accuracy resulting from these attacks to 
-ensure whether the model is vulnerable. 
-                      <br><br>
-                      In the final phase, a testing system is crafted, allowing users to upload their own 
-models and datasets. They can then select and apply a specific attack, while closely 
-observing the ensuing accuracy changes. In cases where the model is found to be 
-vulnerable, the system will provide recommendations for implementing defense 
-mechanisms to bolster the model's resilience against these attacks. 
-                      
+<p><strong>Image-Based Emotion Classification</strong></p>
+<ul>
+    <li>Addressed visual challenges in facial emotion detection using data augmentation techniques (e.g., rotation, translation, brightness adjustment) to improve generalization.</li>
+    <li>Enhanced <em>CNN model</em> with hierarchical attention mechanisms and SHAP explanations for interpretability, enabling better handling of complex conditions such as partial occlusion and varying facial angles.</li>
+    <li>Integrated a methodology to generalize emotion detection across video streams by analyzing cumulative emotion scores over time.</li>
+</ul>
 
-                    </p>
-                    Recommendations are provided according to the attack the model is vulnerable to,
-                    <ol>
-                      <li> Project Gradient Decent- Adversarial Training, Stochastic Distillation</li>
-                      <li> Boundary Attack- Adversarial Training, Ensemble Method</li>
-                      <li> Carlini and Wagner- Adversarial Training, Defensive distillatio</li>
-                    </ol>
+<p><strong>Audio-Based Emotion Classification</strong></p>
+<ul>
+    <li>Focused on preprocessing and feature extraction from audio clips, using <em>Mel Frequency Cepstral Coefficients (MFCCs)</em> and other spectral features for robust emotion classification.</li>
+    <li>Applied data augmentation techniques like time-stretching and noise addition to increase dataset diversity and model adaptability.</li>
+    <li>Developed a <em>hybrid CNN-LSTM model</em> to combine spatial and temporal features, providing a comprehensive analysis of emotional speech.</li>
+</ul>
+
+<p><strong>Personalized Recommendation System</strong></p>
+<ul>
+    <li>Built a recommendation system combining <em>Deep Q-Networks (DQN)</em> and <em>Online Passive-Aggressive Algorithm (OPA)</em> to offer real-time, scalable activity suggestions based on user emotions.</li>
+    <li>Designed a synthetic dataset validated by psychologists, enabling the system to suggest tailored activities (e.g., hobbies, socializing) based on user profiles and feedback.</li>
+    <li>The system's recommendations are delivered via <em>Gemma</em>, a generative AI providing contextually detailed explanations, enhancing user trust and engagement.</li>
+</ul>
                     <!-- <a href="#" class="btn btn-primary">Go somewhere</a> -->
                   </div>
                 </div>
@@ -664,49 +639,13 @@ mechanisms to bolster the model's resilience against these attacks.
                     <!-- <p class="card-text">With supporting text below as a natural lead-in to additional content.</p> -->
 
                     <p>
-                      One of the most significant topics being researched at the moment is research on 
-adversarial attacks. Adversarial attacks concentrate on slightly perturbing machine 
-learning models in order to deceive the models into making false predictions. Since 
-most sectors employ tabular data, attacking models trained on this form of data has 
-garnered greater attention among these attacks on various model types and sectors. 
-Additionally, as PGD, Carlini, and boundary attacks on tabular data are the three main 
-attack types that have garnered concern in this period, they receive greater attention in 
-accordance with our emphasis point, which will handle these three main attacks. PGD 
-attack is a gradient based attack that iteratively perturbate the input data in multiple 
-steps while constraining the perturbations within a specific range. The Boundary attack
-crosses decision boundaries in order to provide adversarial cases that result in
-misclassification. The Carlini attack uses an optimization-based methodology to
-produce the fewest possible model-fooling perturbations Investigating the 
-9
-vulnerability of machine learning models trained on tabular data to these attacks and 
-suggesting practical security strategies are the objectives of this research problem.
+                      Emotion results from a person’s physiological, cognitive, and behavioral reactions to stimuli, profoundly impacting daily life. Continuous emotional criticism can lead individuals to lose their sense of purpose, resulting in expressions of anger through violence, fighting, or even suicide. These behaviors often stem from overwhelming negative emotions, focusing on the people of Sri Lanka, who face significant challenges due to ongoing economic turmoil. A survey highlights that economic imbalance is a primary cause of these distressing feelings, leading to mental health issues such as burnout, decreased productivity, and increased emotional distress.
+<br><br>
+Various research indicates that negative emotions can severely affect mental health, as noted in a study emphasizing the detrimental impact of frequent exposure to stress-related feelings. Different methods for detecting negative emotions, including audio analysis, text and speech analysis, and facial expression recognition, have been explored. However, these approaches often focus on specific physiological aspects and lack a comprehensive methodology suitable for the Sri Lankan context.
+<br><br>
 
-                      <br><br>
-                      Identifying the hyper parameters of the aforementioned attack types and their 
-                      respective performances on a tabular dataset trained model is one of the main focuses 
-                      of this research. Through adjusting these hyperparameters and analyzing the resulting 
-                      effects on our model, we may devise a strong defense mechanism or method to mitigate 
-                      the model's vulnerability to such attacks.
-                      
-                      <br><br>
-                      This research will also focus on a particular sector-based robust model against 
-adversarial attacks, which is another important issue. Since adversarial attacks affect 
-different sectors in different ways, sector-based adversarial attack testing is also an 
-important topic of research. Therefore, developing models that are resistant to these 
-particular industries is essential. In conclusion, since churn is one of the most crucial 
-models that are used in many organizations to retain customers, it is significant that no 
-study has been done to forecast how sensitive are churn models to these assaults trained 
-on tabular data. Therefore, if the model is fragile, a tiny quantity of disturbance might 
-have a large-scale impact and result in a significant loss for the company
-                      <br><br>
-                      To conclude, the research challenge in this study is how to create a strong churn 
-                      customer prediction model that is robust to boundary, PGD, and Carlini attacks that is 
-                      trained using tabular data. Given that the current defense mechanisms and robust 
-                      methodologies have only been evaluated on models trained on image datasets, it is 
-                      unclear how they will perform when applied to a tabular dataset that differs from 
-                      pictures in terms of features. As a result, finding potential robustness approaches for 
-                      tabular data is important and receiving a lot of attention right now.
-                    </p>
+To address these challenges, proactive interventions and tailored mood management techniques are increasingly necessary. Machine learning approaches show promise in providing real-time insights and systematic physiological data analysis, aiding individuals in managing their stress. Studies discuss the application of machine learning in controlling negative emotions in workplaces and educational settings, which could be beneficial in the unique context of Sri Lanka’s economy.
+</p>
                     
                     <!-- <a href="#" class="btn btn-primary">Go somewhere</a> -->
                   </div>
@@ -722,39 +661,19 @@ have a large-scale impact and result in a significant loss for the company
               <div class="col-sm-12">
                 <div class="card">
                   <div class="card-body">
-                    <h4>Main Objective</h4>
-                    <!-- <p class="card-text">With supporting text below as a natural lead-in to additional content.</p> -->
-                    <p>To asses the effect of various adversarial attacks on a churn prediction model and attempt to increase model strength against the given attacks.
+                                           
+                    <h2>Main Objective</h2>
+                    <p>
+                        Identifying emotional state through Audio, Visual and Text Data and Recommending personalized activities for middle-class demographics to improve mental well-being.
                     </p>
                     
-                    <br>
-                    <h6>Sub Objective 1</h6>
-                    <p>
-                      Build a neural network model with high accuracy for a customer churn dataset.
-                    </p>
-                    
-                    <br>
-                    <h6>Sub Objective 2</h6>
-                    <p>
-                      Apply the PGD attacks against the model and identify accuracy changes. Test Defences.
-                    
-                    <br>
-                    <h6>Sub Objective 3</h6>
-                    <p>
-                      Apply the Boundary attacks against the model and identify accuracy changes. Test Defences.
-                      
-    
-                     </p>
-                    
-                    <br>
-                    <h6>Sub Objective 4</h6>
-                    <p>
-                      Apply the Carlini attacks against the model and identify accuracy changes. Test Defences.
-                    <h6>Sub Objective 5</h6>
-                      <p>
-Build a testing tool that allows developers to upload their model and dataset, and evealuate model's resilience against the selected attacks.                        
-      
-                       </p>
+                    <h2>Sub Objectives</h2>
+                    <ul>
+                        <li>Accurately identifying emotions from facial images under challenging conditions</li>
+                        <li>Expand data and address class imbalance in low-resource environments to identify emotions based on text</li>
+                        <li>Identifying emotions based on human voice by analyzing multiple audio features</li>
+                        <li>Provide a personalized recommendation to overcome the reason for being in this current emotional state</li>
+                    </ul>
                     <!-- <a href="#" class="btn btn-primary">Go somewhere</a> -->
                   </div>
                 </div>
@@ -878,9 +797,7 @@ Build a testing tool that allows developers to upload their model and dataset, a
 
       </div>
     </section><!-- End Portfolio Section -->
-
-    
-
+  
 
     <!-- ======= Team Section ======= -->
     <section id="team" class="team">
@@ -893,56 +810,71 @@ Build a testing tool that allows developers to upload their model and dataset, a
 
 
 
-        <div class="row">
+        <div class="row justify-content-center">
 
-          <div class="col-md-15 col-sm-3 d-flex align-items-stretch">
+          <div class="col-lg-3 col-md-4 col-sm-6 d-flex align-items-center">
             <div class="member" data-aos="fade-up" data-aos-delay="100">
               <div class="member-img">
                 <img src="assets/img/l.jpg" class="img-fluid" alt="">
                 <div class="social">
-                  <a href="lakmal.r@sliit.lk"><i class="bi bi-twitter"></i></a>
-                  <a href="lakmal.r@sliit.lk"><i class="bi bi-facebook"></i></a>
-                  <a href="lakmal.r@sliit.lk"><i class="bi bi-envelope-fill"></i></a>
-                  <a href="https://www.linkedin.com/in/lakmalr/"><i class="bi bi-linkedin"></i></a>
+                  <a href="lakmini.d@sliit.lk"><i class="bi bi-envelope-fill"></i></a>
+                  <a href="https://lk.linkedin.com/in/lakmini-abeywardhana-65283aa9"><i class="bi bi-linkedin"></i></a>
                 </div>
               </div>
               <div class="member-info">
                 <h4>Dr. Lakmini Abeywardana</h4>
                 <h6>Supervisor</h6>
                 <span>Senior Lecturer, Sri Lanka Institute of Information Technology</span>
+                <span>Malabe, Sri Lanka</span>
               </div>
             </div>
           </div>
 
-          <div class="col-md-15 col-sm-3 d-flex align-items-stretch">
+          <div class="col-lg-3 col-md-4 col-sm-6 d-flex align-items-stretch justify-content-center">
             <div class="member" data-aos="fade-up" data-aos-delay="100">
               <div class="member-img">
                 <img src="assets/img/sa.jpg" width="100%" class="img-fluid" alt="">
                 <div class="social">
-                  <a href="chethana.l@sliit.lk"><i class="bi bi-twitter"></i></a>
-                  <a href="chethana.l@sliit.lk"><i class="bi bi-facebook"></i></a>
-                  <a href="chethana.l@sliit.lk"><i class="bi bi-envelope-fill"></i></a>
-                  <a href="https://www.linkedin.com/in/chethana-liyanapathirana/"><i class="bi bi-linkedin"></i></a>
+                  <a href="samadhi.r@sliit.lk"><i class="bi bi-envelope-fill"></i></a>
+                  <a href="https://lk.linkedin.com/in/samadhi-chathuranga-rathnayake"><i class="bi bi-linkedin"></i></a>
                 </div>
               </div>
               <div class="member-info">
                 <h4>Mr. Samadhi Rathanayake</h4>
                 <h6>Co-Supervisor</h6>
                 <span>Lecturer, Sri Lanka Institute of Information Technology</span>
+                <span>Malabe, Sri Lanka</span>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-4 col-sm-6 d-flex align-items-stretch">
+            <div class="member" data-aos="fade-up" data-aos-delay="100">
+              <div class="member-img">
+                <img src="assets/img/riz.png" width="100%" class="img-fluid" alt="">
+                <div class="social">
+                  <a href="rizka04@gmail.com"><i class="bi bi-envelope-fill"></i></a>
+                  <a href="https://lk.linkedin.com/in/rizka-ismath-59a81315a"><i class="bi bi-linkedin"></i></a>
+                </div>
+              </div>
+              <div class="member-info">
+                <h4>Dr. Rizka Ismath</h4>
+                <h6>External-Supervisor</h6>
+                <span>Educational Psychologist, Leap Inc. </span>
+                <span>Colombo, Sri Lanka</span>
               </div>
             </div>
           </div>
 
- 
-          <div class="col-md-15 col-sm-3 d-flex align-items-stretch">
+        </div>
+        <div class="row justify-content-center">
+
+          <div class="col-lg-3 col-md-3 col-sm-6 d-flex align-items-stretch">
             <div class="member" data-aos="fade-up" data-aos-delay="100">
               <div class="member-img">
                 <img src="assets/img/z.jpg" class="img-fluid" alt="">
                 <div class="social">
-                  <a href="amanikaleem1221@gmail.com"><i class="bi bi-twitter"></i></a>
-                  <a href="amanikaleem1221@gmail.com"><i class="bi bi-facebook"></i></a>
-                  <a href="amanikaleem1221@gmail.com"><i class="bi bi-envelope-fill"></i></a>
-                  <a href="amanikaleem1221@gmail.com"><i class="bi bi-linkedin"></i></a>
+                  <a href="mailto:zaid09012003@gmail.com"><i class="bi bi-envelope-fill"></i></a>
+                  <a href="https://www.linkedin.com/in/zaidh-shafraz-248070255/"><i class="bi bi-linkedin"></i></a>
                 </div>
               </div>
               <div class="member-info">
@@ -955,15 +887,13 @@ Build a testing tool that allows developers to upload their model and dataset, a
             </div>
           </div>
           
-          <div class="col-md-15 col-sm-3 d-flex align-items-stretch">
+          <div class="col-lg-3 col-md-3 col-sm-6 d-flex align-items-stretch">
             <div class="member" data-aos="fade-up" data-aos-delay="300">
               <div class="member-img">
                 <img src="assets/img/h.jpg" width="100%" class="img-fluid" alt="">
                 <div class="social">
-                  <a href="Hasnaemail.com"><i class="bi bi-twitter"></i></a>
-                  <a href="nisajafernando30@gmail.com"><i class="bi bi-facebook"></i></a>
-                  <a href="nisajafernando30@gmail.com"><i class="bi bi-envelope-fill"></i></a>
-                  <a href="https://www.linkedin.com/in/nisaja-fernando-a59796197/"><i class="bi bi-linkedin"></i></a>
+                  <a href="mailto:ihiroshan@outlook.com"><i class="bi bi-envelope-fill"></i></a>
+                  <a href="https://www.linkedin.com/in/hiroshan-i/"><i class="bi bi-linkedin"></i></a>
                 </div>
               </div>
               <div class="member-info">
@@ -975,15 +905,13 @@ Build a testing tool that allows developers to upload their model and dataset, a
               </div>
             </div>
           </div>
-          <div class="col-md-15 col-sm-3 d-flex align-items-stretch">
+          <div class="col-lg-3 col-md-3 col-sm-6 d-flex align-items-stretch">
             <div class="member" data-aos="fade-up" data-aos-delay="100">
               <div class="member-img">
                 <img src="assets/img/c.jpg" class="img-fluid" alt="">
                 <div class="social">
-                  <a href="aaishamauroof99@gmail.com"><i class="bi bi-twitter"></i></a>
-                  <a href="aaishamauroof99@gmail.com"><i class="bi bi-facebook"></i></a>
-                  <a href="aaishamauroof99@gmail.com"><i class="bi bi-envelope-fill"></i></a>
-                  <a href="https://www.linkedin.com/in/aaisha-mauroof-840167245/"><i class="bi bi-linkedin"></i></a>
+                  <a href="mailto:chanulvithanage23411@gmail.com"><i class="bi bi-envelope-fill"></i></a>
+                  <a href="https://www.linkedin.com/in/chanul-vithanage-751816239"><i class="bi bi-linkedin"></i></a>
                 </div>
               </div>
               <div class="member-info">
@@ -998,15 +926,13 @@ Build a testing tool that allows developers to upload their model and dataset, a
 
           
 
-          <div class="col-md-15 col-sm-3 d-flex align-items-stretch">
+          <div class="col-lg-3 col-md-3 col-sm-6 d-flex align-items-stretch">
             <div class="member" data-aos="fade-up" data-aos-delay="300">
               <div class="member-img">
                 <img src="assets/img/s.JPG" class="img-fluid" alt="">
                 <div class="social">
-                  <a href="Hasnaemail.com"><i class="bi bi-twitter"></i></a>
-                  <a href="nisajafernando30@gmail.com"><i class="bi bi-facebook"></i></a>
-                  <a href="nisajafernando30@gmail.com"><i class="bi bi-envelope-fill"></i></a>
-                  <a href="https://www.linkedin.com/in/nisaja-fernando-a59796197/"><i class="bi bi-linkedin"></i></a>
+                  <a href="mailto:shifanrasik@gmail.com"><i class="bi bi-envelope-fill"></i></a>
+                  <a href="https://www.linkedin.com/in/shifan-rasik/"><i class="bi bi-linkedin"></i></a>
                 </div>
               </div>
               <div class="member-info">
@@ -1023,13 +949,9 @@ Build a testing tool that allows developers to upload their model and dataset, a
         </div>
 
       </div>
+    </div>
     </section><!-- End Team Section -->
-
-
-
-
-   
-
+       
 
     <!-- ======= Contact Section ======= -->
     <section id="contact" class="contact">
@@ -1049,19 +971,19 @@ Build a testing tool that allows developers to upload their model and dataset, a
               <div class="address">
                 <i class="bi bi-geo-alt"></i>
                 <h4>Location:</h4>
-                <p>A108 Rajarata Street, Sri Lanka</p>
+                <p>SLIIT Malabe Campus, New Kandy Rd, Malabe, Sri Lanka</p>
               </div>
 
               <div class="email">
                 <i class="bi bi-envelope"></i>
                 <h4>Email:</h4>
-                <p>ravnlanka@gmal.com</p>
+                <p>zaid09012003@gmail.com</p>
               </div>
 
               <div class="phone">
                 <i class="bi bi-phone"></i>
                 <h4>Call:</h4>
-                <p>081 - 2219845</p>
+                <p>+94 77 248 1051</p>
               </div>
 
             </div>
@@ -1070,7 +992,7 @@ Build a testing tool that allows developers to upload their model and dataset, a
 
           <div class="col-lg-8 mt-5 mt-lg-0">
 
-            <form action="forms/contact.php" method="post" role="form" class="php-email-form">
+            <form id="contactForm" action="mailto:zaid09012003@gmail.com" method="post" role="form" class="php-email-form">
               <div class="row">
                 <div class="col-md-6 form-group">
                   <input type="text" name="name" class="form-control" id="name" placeholder="Your Name" required>
@@ -1085,11 +1007,7 @@ Build a testing tool that allows developers to upload their model and dataset, a
               <div class="form-group mt-3">
                 <textarea class="form-control" name="message" rows="5" placeholder="Message" required></textarea>
               </div>
-              <div class="my-3">
-                <div class="loading">Loading</div>
-                <div class="error-message"></div>
-                <div class="sent-message">Your message has been sent. Thank you!</div>
-              </div>
+              
               <div class="text-center"><button type="submit">Send Message</button></div>
             </form>
 
@@ -1108,26 +1026,20 @@ Build a testing tool that allows developers to upload their model and dataset, a
       <div class="container">
         <div class="row">
 
-          <div class="col-lg-3 col-md-6">
+          <div class="col-lg-6 col-md-6">
             <div class="footer-info">
-              <!-- <h3>Gp<span>.</span></h3> -->
+              <h2 class="fw-bold">My Recommender</h2>
+              <p>
+                Personalized Activity Recommendation based on Multi-modal Emotions Classification
+              </p>
+              <br>
               <p>
                 4th Year Research Project<br>
                 Sri Lanka Institute of Information Technology<br><br>
-                <strong>Phone:</strong> +1 5589 55488 55<br>
-                <strong>Email:</strong> info@example.com<br>
-              </p>
-              <div class="social-links mt-3">
-                <a href="#" class="twitter"><i class="bx bxl-twitter"></i></a>
-                <a href="#" class="facebook"><i class="bx bxl-facebook"></i></a>
-                <a href="#" class="instagram"><i class="bx bxl-instagram"></i></a>
-                <a href="#" class="google-plus"><i class="bx bxl-skype"></i></a>
-                <a href="#" class="linkedin"><i class="bx bxl-linkedin"></i></a>
-              </div>
             </div>
           </div>
 
-          <div class="col-lg-2 col-md-6 footer-links">
+          <div class="col-lg-6 col-md-6 footer-links">
             <h4>Useful Links</h4>
             <ul>
               <li><i class="bx bx-chevron-right"></i> <a href="#hero">Home</a></li>
@@ -1174,6 +1086,7 @@ Build a testing tool that allows developers to upload their model and dataset, a
   <div id="preloader"></div>
   <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
 
+
   <!-- Vendor JS Files -->
   <script src="assets/vendor/purecounter/purecounter_vanilla.js"></script>
   <script src="assets/vendor/aos/aos.js"></script>
@@ -1181,11 +1094,12 @@ Build a testing tool that allows developers to upload their model and dataset, a
   <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
   <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
   <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
-  <script src="assets/vendor/php-email-form/validate.js"></script>
+  <!-- <script src="assets/vendor/php-email-form/validate.js"></script> -->
 
   <!-- Template Main JS File -->
   <script src="assets/js/main.js"></script>
-
+  
 </body>
+
 
 </html>
